@@ -18,7 +18,7 @@ module.exports = {
     // WebpackClearConsole plugin removes all statements beginning with console.
     new webpackSkeletonDom(
       {
-        skeletonHtml: ''
+        skeletonHtml: '' // <div id="app"> ...skeleton </div>
       }
     )
   ]
